@@ -10,3 +10,14 @@ ip route get to 8.8.8.8
 
 Route tables
 ip route show table main|local|all|ID
+
+0.0.0.0
+
+From wikipedia:
+In routing tables, 0.0.0.0 can also appear in the gateway column. This 
+indicates that the gateway to reach the corresponding destination subnet is 
+unspecified. This generally means that no intermediate routing hops are 
+necessary because the system is directly connected to the destination.
+
+0.0.0.0/0 which defines an IP block containing all possible IP addresses. It is 
+commonly used in routing to depict the default route
